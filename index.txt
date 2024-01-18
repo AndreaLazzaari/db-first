@@ -1,0 +1,15 @@
+Nome tabella: auto usate concessionario
+
+id - intero - MEDIUMINT - PRIMARY_KEY UNIQUE AUTO_INCREMENT - NOT NULL
+marca - stringa - VARCHAR(30) - NOT NULL
+modello - stringa - VARCHAR(30) - NOT NULL
+colore - stringa -VARCHAR(50) - NOT NULL
+prezzo - decimal - DECIMAL(8,  2) - NOT NULL
+data_acquisto - DATE - NOT NULL
+km_percorsi - DECIMAL(10, 2) - NOT NULL
+data_immatricolazione - DATE - NOT NULL
+targa - stringa - VARCHAR(7) - NULL
+storico_manutenzione - stringa - TEXT - NULL
+incidenti - stringa - TEXT - NULL
+
+
